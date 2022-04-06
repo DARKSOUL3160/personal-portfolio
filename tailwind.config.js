@@ -1,12 +1,14 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    '*.{html,js, css}'
+  ],
+  
   theme: {
     extend: {
       colors: {
-        'body': '#17171F',
-        'selected-text': '#A3A3FF',
-        'theme': '#3F3FFF',
+        'body': '#161616',
+        'selected-text': '#eB0d1d',
+        'theme': '#eB0d1d',
         'nav': '#404053',
         'secondary': '#9191A4',
         'badge': '#3F3F51',

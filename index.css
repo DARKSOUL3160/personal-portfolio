@@ -62,3 +62,23 @@ scroll-margin-top: 100px;
 .nav-dot:hover span {
     opacity: 1;
 }
+
+.fotomain{
+    border-bottom: 3px dashed #eB0d1d;
+    border-top: 3px dashed #eB0d1d;
+    border-right: 3px dashed #eB0d1d;
+    margin-right: 20px;
+}
+
+@media (max-width: 800px) {
+    .fotomain {
+        transition: background 200ms, border-color 200ms;
+        width: 50%;
+        margin: auto;
+        margin-top: 40px;
+        border-bottom: 3px dashed #eB0d1d;
+        border-left: 3px dashed #eB0d1d;
+        border-right: 3px dashed #eB0d1d;
+        border-top: none;
+    }
+  }
